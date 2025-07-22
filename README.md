@@ -1,38 +1,46 @@
-# Java Brains IPL Dashboard
+# CrickBoard
 
-Browse your favorite IPL teams and access their past games details, wins and losses ratios - accessible by team and tournament year.
+A modern IPL Dashboard built with **Spring Boot** and **React JS**, offering fast, interactive cricket analytics and visualizations. CrickBoard lets you explore team, match, and player stats from the Indian Premier League—deployed on AWS for real-world scalability.
 
-This is a companion project for the Java Brains course on Full Stack Development using Spring Boot and React JS.
+---
 
-Check out the playlist below to see this app built end-to-end from scratch.
+## Features
 
-Full Playlist:
-https://youtube.com/playlist?list=PLqq-6Pq4lTTa8V613TZhGq4o8hSgkMGQ0
+- Interactive web dashboard for IPL analytics
+- Explore team, match, and player statistics
+- Filter and search by seasons, teams, players
+- Visualizations for runs, wickets, top performers, and more
+- Clean, responsive UI (React JS)
+- Real-time, batch, and historical data support
 
+---
 
-## Screenshots
+## Tech Stack
 
-### Team Page
+- **Backend:** Spring Boot, Java
+- **Batch Processing:** Spring Batch
+- **Database:** HSQL DB (In-memory, fast prototyping)
+- **ORM:** Java Persistence API (JPA), Repositories, JPQL
+- **Frontend:** React JS
+- **Cloud Deployment:** AWS Elastic Beanstalk
 
-![Team Page Page](/README/team-page.jpg)
+---
 
-### Matches Page
+## Getting Started
 
-![Matches Page](/README/matches-page.jpg)
+### Prerequisites
 
-## Technologies
+- Java 17+ (or Java 11+)
+- Maven 3.6+
+- Node.js & npm (for frontend)
+- (Optional) AWS account for deployment
 
-* Spring Boot
-* Spring Batch
-* Java Persistence API, Repositories and JPQL
-* HSQL DB
-* React JS
-* AWS BeanStalk
+### Backend Setup
+- cd backend
+- mvn clean install
+- mvn spring-boot:run
+###  Frontend Setup
+- cd frontend
+- npm install
+- npm start
 
-## Data Set Used
-https://www.kaggle.com/patrickb1912/ipl-complete-dataset-20082020/metadata
-
-
-## Contributing
-Look at the Issues tab for feature improvements and bugs filed for this repo. Make sure you watch the [YouTube playlist](https://youtube.com/playlist?list=PLqq-6Pq4lTTa8V613TZhGq4o8hSgkMGQ0
-)  to see how this application is built first! 
