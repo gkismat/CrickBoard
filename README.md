@@ -1,51 +1,38 @@
-# CrickBoard
+# Java Brains IPL Dashboard
+
+Browse your favorite IPL teams and access their past games details, wins and losses ratios - accessible by team and tournament year.
+
+This is a companion project for the Java Brains course on Full Stack Development using Spring Boot and React JS.
+
+Check out the playlist below to see this app built end-to-end from scratch.
+
+Full Playlist:
+https://youtube.com/playlist?list=PLqq-6Pq4lTTa8V613TZhGq4o8hSgkMGQ0
 
 
-A modern IPL Dashboard built with **Spring Boot** and **React JS**, offering fast, interactive cricket analytics and visualizations. CrickBoard lets you explore team, match, and player stats from the Indian Premier League—deployed on AWS for real-world scalability.
+## Screenshots
 
----
+### Team Page
 
-## Features
+![Team Page Page](/README/team-page.jpg)
 
-- Interactive web dashboard for IPL analytics
-- Explore team, match, and player statistics
-- Filter and search by seasons, teams, players
-- Visualizations for runs, wickets, top performers, and more
-- Clean, responsive UI (React JS)
-- Real-time, batch, and historical data support
+### Matches Page
 
----
+![Matches Page](/README/matches-page.jpg)
 
-## Tech Stack
+## Technologies
 
-- **Backend:** Spring Boot, Java
-- **Batch Processing:** Spring Batch
-- **Database:** HSQL DB (In-memory, fast prototyping)
-- **ORM:** Java Persistence API (JPA), Repositories, JPQL
-- **Frontend:** React JS
-- **Cloud Deployment:** AWS Elastic Beanstalk
+* Spring Boot
+* Spring Batch
+* Java Persistence API, Repositories and JPQL
+* HSQL DB
+* React JS
+* AWS BeanStalk
 
----
+## Data Set Used
+https://www.kaggle.com/patrickb1912/ipl-complete-dataset-20082020/metadata
 
-## Getting Started
 
-### Prerequisites
-
-- Java 17+ (or Java 11+)
-- Maven 3.6+
-- Node.js & npm (for frontend)
-### Backend Setup
-
-bash
-Copy
-Edit
-cd backend
-mvn clean install
-mvn spring-boot:run
-### Frontend Setup
-cd frontend
-npm install
-npm start
-### Deployment
-Easily deploy to AWS Elastic Beanstalk using Docker or native Beanstalk Java/Node.js environments.
-
+## Contributing
+Look at the Issues tab for feature improvements and bugs filed for this repo. Make sure you watch the [YouTube playlist](https://youtube.com/playlist?list=PLqq-6Pq4lTTa8V613TZhGq4o8hSgkMGQ0
+)  to see how this application is built first! 
